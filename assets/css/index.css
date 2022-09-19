@@ -1,0 +1,42 @@
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.layui-body {
+    overflow: hidden;
+}
+
+.text-avatar {
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    background-color: #009688;
+    border-radius: 50%;
+    line-height: 33px;
+    text-align: center;
+}
+
+.userinfo {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.layui-side-scroll .userinfo {
+    /* 无法被选中 */
+    user-select: none;
+}
