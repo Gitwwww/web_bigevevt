@@ -1,0 +1,14 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+.layui-card {
+    margin: 10px 20px;
+}
+
+.layui-input {
+    width: 30%;
+}
