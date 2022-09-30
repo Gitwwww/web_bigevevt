@@ -41,7 +41,7 @@ $(function () {
             .toDataURL('image/png')       // 将 Canvas 画布上的内容，转化为 base64 格式的字符串
         $.ajax({
             type: 'POST',
-            url: 'http://www.liulongbin.top:3007/my/update/avatar',
+            url: 'http://api-breakingnews-web.itheima.net/my/update/avatar',
             headers: {
                 Authorization: localStorage.getItem('token') || ''
             },

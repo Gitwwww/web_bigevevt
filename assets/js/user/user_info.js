@@ -25,7 +25,7 @@ $(function () {
     function changeUserInfo() {
         $.ajax({
             type: 'GET',
-            url: 'http://www.liulongbin.top:3007/my/userinfo',
+            url: 'http://api-breakingnews-web.itheima.net/my/userinfo',
             headers: {
                 Authorization: localStorage.getItem('token') || ''
             },
@@ -51,7 +51,7 @@ $(function () {
         e.preventDefault()
         $.ajax({
             type: 'POST',
-            url: 'http://www.liulongbin.top:3007/my/userinfo',
+            url: 'http://api-breakingnews-web.itheima.net/my/userinfo',
             headers: {
                 Authorization: localStorage.getItem('token') || ''
             },

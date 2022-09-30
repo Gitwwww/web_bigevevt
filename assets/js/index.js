@@ -15,7 +15,7 @@ $(function () {
 function getUserInfo() {
     $.ajax({
         method: 'GET',
-        url: 'http://www.liulongbin.top:3007/my/userinfo',
+        url: 'http://api-breakingnews-web.itheima.net/my/userinfo',
         // 请求头配置对象
         // 小写！！！ 排错了好久
         headers: {

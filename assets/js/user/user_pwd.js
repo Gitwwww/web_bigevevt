@@ -22,7 +22,7 @@ $(function () {
         e.preventDefault()
         $.ajax({
             type: 'POST',
-            url: 'http://www.liulongbin.top:3007/my/updatepwd',
+            url: 'http://api-breakingnews-web.itheima.net/my/updatepwd',
             headers: {
                 Authorization: localStorage.getItem('token') || ''
             },
